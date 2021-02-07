@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background-color: #222222;
+    color: white;
+}
+
+.topMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topMenu a:link, a:visited {
+    color: white;
+    background-color: #444444;
+    border: 2px solid orange;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topMenu a:hover, a:active {
+    background-color: orange;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+.topMenu ul{
+    width: auto;
+    text-align: center;
+    margin-top: 8px;
+}
+.topMenu li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.button, .button a:visited {
+    width: 170px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+.button-1 {
+    color: #fff;
+    border: 3px solid #FF8000;
+    background-image: -webkit-linear-gradient(30deg, #FF8000 50%, transparent 50%);
+    background-image: linear-gradient(30deg, #FF8000 50%, transparent 50%);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: 0%;
+    -webkit-transition: background 300ms ease-in-out;
+    transition: background 300ms ease-in-out;
+}
+
+.button:hover {
+    background-position: 100%;
+    color: #FF8000;
+}
+
+table {
+    margin: 0 auto;
+}

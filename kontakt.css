@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: #222222;
+    color: white;
+}
+
+.topMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topMenu a:link, a:visited {
+    color: white;
+    background-color: #444444;
+    border: 2px solid orange;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topMenu a:hover, a:active {
+    background-color: orange;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+.topMenu ul{
+    width: auto;
+    text-align: center;
+    margin-top: 8px;
+}
+.topMenu li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.formularz {
+    margin:0 auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.formularz table {
+    margin:0 auto;
+    text-align: center;
+}

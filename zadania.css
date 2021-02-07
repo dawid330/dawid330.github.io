@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    background-color: #222222;
+    color: white;
+}
+
+.topMenu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.topMenu a:link, a:visited {
+    color: white;
+    background-color: #444444;
+    border: 2px solid orange;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.topMenu a:hover, a:active {
+    background-color: orange;
+    color: white;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+.topMenu ul{
+    width: auto;
+    text-align: center;
+    margin-top: 8px;
+}
+.topMenu li{
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+
+
+.container
+{
+	margin-top:10px;
+	background-color:brown;
+	width:800px;
+	position:relative;
+}
+.pudelko
+{
+	background-color:red;
+	height:100px;
+	width:100px;
+	margin:10px;
+	background: #000;
+}
+.pudelko1
+{
+	background-color:red;
+	height:200px;
+	width:200px;
+	position:absolute;
+	top:100px;	
+	left:100px;
+	z-index:1;
+}
+.inne1
+{
+	background-color:aqua;
+	height:200px;
+	width:200px;
+	position:absolute;
+	bottom:0px;
+	right:0;
+}
+.pudelko2
+{
+	background-color:greenyellow;
+	height:200px;
+	width:200px;
+	position:absolute;
+	top: 100px;
+	left:130px;
+}
