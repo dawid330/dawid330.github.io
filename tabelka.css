@@ -55,7 +55,7 @@ body {
     display: inline-block;
   }
 
-.button-1 {
+.button-1, .button-1 a:visited {
     color: #fff;
     border: 3px solid #FF8000;
     background-image: -webkit-linear-gradient(30deg, #FF8000 50%, transparent 50%);
