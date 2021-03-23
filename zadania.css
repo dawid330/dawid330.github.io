@@ -49,39 +49,48 @@ body {
 	width:800px;
 	position:relative;
 }
-.pudelko
-{
-	background-color:red;
-	height:100px;
-	width:100px;
-	margin:10px;
-	background: #000;
+
+
+.box{
+    border-bottom: 2px solid black;
+    width: 20%;
+    height: 40px;
+    display: inline;
 }
-.pudelko1
-{
-	background-color:red;
-	height:200px;
-	width:200px;
-	position:absolute;
-	top:100px;	
-	left:100px;
-	z-index:1;
+
+.blue{
+    background-color: blue;
 }
-.inne1
-{
-	background-color:aqua;
-	height:200px;
-	width:200px;
-	position:absolute;
-	bottom:0px;
-	right:0;
+
+.orange{
+    background-color: orange;
 }
-.pudelko2
+
+.purple{
+    background-color: purple;
+}
+
+.green{
+    background-color: green;
+}
+
+strong{
+    display: block;
+}
+
+.sub_menu
 {
-	background-color:greenyellow;
-	height:200px;
-	width:200px;
-	position:absolute;
-	top: 100px;
-	left:130px;
+    display: none;
+}
+.menu{
+    display: inline;
+}
+.menu:hover
+{
+    background-color:#e76e1c;
+}
+.menu:hover > .sub_menu 
+{
+    display: inline;
+    background: #ac1a07;
 }
